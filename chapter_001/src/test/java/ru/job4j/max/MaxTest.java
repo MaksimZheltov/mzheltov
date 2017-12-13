@@ -9,8 +9,7 @@ public class MaxTest {
     @Test
     public void maxFromTwo(){
         Max maxim = new Max();
-        int result = maxim.max(1, 2);
-        assertThat(result, is(2));
+        assertThat(maxim.max(1, 2), is(2));
     }
 
 }
