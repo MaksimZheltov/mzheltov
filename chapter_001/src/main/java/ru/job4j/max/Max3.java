@@ -8,8 +8,6 @@ package ru.job4j.max;
 
 public class Max3 {
      public int max(int first, int second, int third) {
-
-        //return Math.max(max2, third);
         return Math.max(Math.max(first, second), third);
     }
 }
