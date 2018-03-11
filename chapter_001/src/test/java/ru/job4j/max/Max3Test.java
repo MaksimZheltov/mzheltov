@@ -9,7 +9,7 @@ public class Max3Test {
     @Test
     public void maxFromThree(){
         Max3 maxim = new Max3();
-        assertThat(maxim.max(1, 2, 3), is(3));
+        assertThat(maxim.max3(5, 2, 3), is(5));
     }
 
 }
