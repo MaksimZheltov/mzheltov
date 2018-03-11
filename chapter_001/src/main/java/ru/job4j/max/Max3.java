@@ -17,6 +17,5 @@ public class Max3 {
     public int max3(int first, int second, int third){
         int temp = this.max3(first, second);
             return this.max3(temp, third);
-
     }
 }
