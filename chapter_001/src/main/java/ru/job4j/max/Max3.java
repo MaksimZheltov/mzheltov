@@ -9,14 +9,15 @@ package ru.job4j.max;
 public class Max3 {
 
     public int max3(int first, int second) {
-        return Math.max(first, second);
+        if(first > second) return first;
+                else return second;
     }
 
     public Max3(){
     }
 
     public int max3(int first, int second, int third){
-        int temp = this.max3(first, second);
-            return this.max3(temp, third);
+        return this.max3(this.max3(first, second), third);
+            //return this.max3(temp, third);
     }
 }
