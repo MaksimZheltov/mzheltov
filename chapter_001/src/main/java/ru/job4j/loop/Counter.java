@@ -7,7 +7,6 @@ package ru.job4j.loop;
  */
 
 public class Counter {
-    //int sum;
 
     public int add(int start, int finish) {
         int sum = 0;
