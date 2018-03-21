@@ -1,4 +1,5 @@
 package ru.job4j.loop;
+
 /**
  * Counter.
  * @author Maksim Zheltov (mvzheltov@yandex.ru)
