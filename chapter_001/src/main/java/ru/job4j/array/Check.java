@@ -7,16 +7,16 @@ package ru.job4j.array;
  * @since 0.1
  */
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class Check {
     public boolean mono(boolean[] data){
-        boolean result = false;
-            for(int index = 0; index < data.length; index++){
-                if(data[0] == data[index + 1]){
-                    result = true;
+        boolean result = true;
+            for(int index = 0; index < data.length-1; index++){
+                if(data[0] != data[index + 1]){
+                    result = false;
+                    break;
                 }
-            break;
             }
         return result;
     }
