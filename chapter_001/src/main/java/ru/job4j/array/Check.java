@@ -10,10 +10,10 @@ package ru.job4j.array;
 //import java.util.Arrays;
 
 public class Check {
-    public boolean mono(boolean[] data){
+    public boolean mono(boolean[] data) {
         boolean result = true;
-            for(int index = 0; index < data.length-1; index++){
-                if(data[0] != data[index + 1]){
+            for(int index = 0; index < data.length-1; index++) {
+                if(data[0] != data[index + 1]) {
                     result = false;
                     break;
                 }
