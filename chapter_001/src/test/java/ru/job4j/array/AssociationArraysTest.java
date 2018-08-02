@@ -31,7 +31,7 @@ public class AssociationArraysTest {
         int[] a = new int[]{1, 3, 6};
         int[] b = new int[]{3, 4, 5, 8, 9};
         int[] result = associate.association(a, b);
-        int[] expect = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 9, 10, 11, 12};
+        int[] expect = new int[]{1, 3, 3, 4, 5, 6, 8, 9};
         assertThat(result, is(expect));
     }
 

@@ -16,25 +16,20 @@ public class AssociationArrays {
             if(indexFirst != firstArray.length) {
                 if(indexSecond != secondArray.length) {
                     if (firstArray[indexFirst] <= secondArray[indexSecond]) {
-                        thirdArray[indexThird] = firstArray[indexFirst];
+                        thirdArray[indexThird++] = firstArray[indexFirst];
                         indexFirst++;
-                    } else {
-                        if (indexSecond < secondArray.length) {
-                            thirdArray[indexThird] = secondArray[indexSecond];
-                            indexSecond++;
-                        }
+                    }
+                    else {
+                        thirdArray[indexThird++] = secondArray[indexSecond++];
                     }
                 }
                 else {
-                    thirdArray[indexThird] = firstArray[indexFirst];
-                    indexFirst++;
+                    thirdArray[indexThird++] = firstArray[indexFirst++];
                 }
             }
             else {
-                thirdArray[indexThird] = secondArray[indexSecond];
-                indexSecond++;
+                thirdArray[indexThird++] = secondArray[indexSecond++];
             }
-            indexThird++;
         }
         return thirdArray;
     }
