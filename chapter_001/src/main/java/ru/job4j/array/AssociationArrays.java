@@ -16,8 +16,7 @@ public class AssociationArrays {
             if(indexFirst != firstArray.length) {
                 if(indexSecond != secondArray.length) {
                     if (firstArray[indexFirst] <= secondArray[indexSecond]) {
-                        thirdArray[indexThird++] = firstArray[indexFirst];
-                        indexFirst++;
+                        thirdArray[indexThird++] = firstArray[indexFirst++];
                     }
                     else {
                         thirdArray[indexThird++] = secondArray[indexSecond++];
