@@ -40,6 +40,7 @@ public class Logic3T {
             }
         }
         return result;
+
         //return true;
     }
 }
