@@ -4,7 +4,7 @@ package ru.job4j.condition;
  * @author Maksim Zheltov (mvzheltov@yandex.ru)
  * @version $Id$
  * @since 0.1
- */
+  */
 public class DummyBot {
     /**
      * Отвечает на вопросы.
