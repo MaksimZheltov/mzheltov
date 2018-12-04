@@ -5,6 +5,6 @@ public class Doctor extends Profession {
         this.name = name;
         this.profession = profession;
     }
-    public static void Diagnose(Patient patient) {
+    public void Diagnose() {
     }
 }
