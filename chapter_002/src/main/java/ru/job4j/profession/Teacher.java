@@ -5,7 +5,6 @@ public class Teacher extends Profession {
         this.name = name;
         this.profession = profession;
     }
-
     public static void Teach(Student studetn) {
     }
 }

@@ -5,7 +5,6 @@ public class Engineer extends Profession {
         this.name = name;
         this.profession = profession;
     }
-
     public static void Build(Home home) {
     }
 }

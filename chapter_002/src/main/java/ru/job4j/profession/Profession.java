@@ -19,5 +19,4 @@ public class Profession {
     public String getProfession() {
         return this.profession;
     }
-
 }
